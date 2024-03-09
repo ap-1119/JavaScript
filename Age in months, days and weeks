@@ -1,0 +1,12 @@
+function lifeInWeeks(age) {
+  
+        current_age_in_months=age*12;
+        current_age_in_weeks=age*52;
+        current_age_in_days=age*365;
+        remaining_months=((90*12)-current_age_in_months);
+        remaining_weeks=((90*52)-current_age_in_weeks);
+        remaining_days=((90*365)-current_age_in_days);
+        
+        console.log("You have "+remaining_days+"days, "+remaining_weeks+"weeks, and "+remaining_months+"months left.")
+        
+}
